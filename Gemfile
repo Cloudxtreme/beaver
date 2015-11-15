@@ -1,0 +1,20 @@
+source 'https://rubygems.org'
+
+gem 'thin'
+gem 'sinatra'
+gem 'pg'
+gem 'json'
+gem 'rack'
+gem 'parseconfig'
+gem 'bcrypt'
+gem 'rake'
+gem 'sinatra-activerecord'
+gem 'sinatra-contrib'
+gem 'rdiscount'
+
+# Development
+#gem 'rack-test'
+#gem 'guard'
+#gem 'guard-minitest'
+#em 'foreman'
+#gem 'minitest'
