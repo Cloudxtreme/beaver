@@ -1,11 +1,6 @@
-<html>
-  <head>
-    <title>Beaver Docs</title>
-    <link rel="stylesheet" type="text/css" href="/css/help.css">
-  </head>
-  <body class="markdown-body">
-  <h1> Beaver</h1>
-<p> Manage Pxe provisionings trough a REST api.</p>
+# Beaver
+
+> Manage Pxe provisionings trough a REST api.
 
 ## General
 
@@ -19,7 +14,7 @@ GET /
 `curl -H "Accept: application/json" http://beaver.example.com`
 
 GET /help
-> Returns this page.
+> List available API entrypoints.
 
 ## Users
 
@@ -230,6 +225,3 @@ POST /provisions
 >* host_attributes
 
 `curl -k -H "Accept: application/json" -X POST -d '{"host":"52:54:00:c4:96:5e","operating_systems_id":1,"templates_id":14,"host_configs_id":1,"host_attributes":{"rootpassword":"megasecret"}}' http://user:password@beaver.example.com/provisions`
-
-  </body>
-</html>
